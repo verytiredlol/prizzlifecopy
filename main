@@ -1,0 +1,24 @@
+PLadmin_Settings = { 
+	GuiTheme = Color3.fromRGB(255, 0, 0); --(255, 0, 0)=Red(0, 255, 0)=Green(0, 0, 255)=Blue
+	DefaultPrefix = "?";
+	JoinNotify = false; --Notify when a player joins
+	AutoRespawn = true;
+	AntiVoid = true;
+	AntiTase = false; 
+	AntiArrest = false;
+	AntiShoot = false; 
+	AntiPunch = false; 
+	AntiFling = false;
+	AntiShield = false;
+	AntiBring = false; --Disable sitting
+	HostileDefense = true; --Kill players when antiarrest or antitase is on
+	SilentAim = false; --AimBot
+	AutoGuns = false;
+	OldItemMethod = false; --Use teleport for guns
+	Fullbright = false; --Make the game brighter
+	WhitelistRanked = false; --Whitelist admined players
+	RankedNukeCmds = true;
+	RankedMultiCmd = true; --Allow admined players to use ?kill all 
+	RankedOutput = true; --Chat when an admined player uses commands
+	WhisperToRanked = true; --Whisper to admined players
+};loadstring(game:HttpGet('https://raw.githubusercontent.com/SkidMaster420/PrisonLife/refs/heads/main/PrizzLife'))()
